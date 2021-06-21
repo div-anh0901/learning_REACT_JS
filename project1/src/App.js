@@ -1,10 +1,10 @@
 
 import React from 'react';
 import "./App.css";
-import ColorPicker from "./compoments/ColorPicker";
-import Reset from "./compoments/Reset";
-import SizeSeting from "./compoments/SizeSeting";
-import Result from "./compoments/Result";
+import ColorPicker from "./components/ColorPicker";
+import Reset from "./components/Reset";
+import SizeSeting from "./components/SizeSeting";
+import Result from "./components/Result";
 
 class App extends React.Component{
   constructor(props){
