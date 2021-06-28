@@ -22,12 +22,12 @@ export default function Sliderbar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTile">Dashboard</h3>
           <ul className="sidebarList">
-           
+          <Link to="/" className="link">
             <li className="sidebarListItem active">
-            <Link to="/" className="link"/>
               <LineStyle className="sidebarIcon" />
               Home
             </li>
+            </Link>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics
@@ -41,15 +41,18 @@ export default function Sliderbar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTile">QuickMenu</h3>
           <ul className="sidebarList">
-            {/* <Link className="link"/> */}
+          <Link to="/users" className="link">
             <li className="sidebarListItem ">
               <PermIdentity className="sidebarIcon" />
               Users
             </li>
+          </Link>
+          <Link to="/product" className="link">
             <li className="sidebarListItem">
               <Storefront className="sidebarIcon" />
               Products
             </li>
+            </Link>
             <li className="sidebarListItem">
               <AttachMoney  className="sidebarIcon" />
               Transactions
