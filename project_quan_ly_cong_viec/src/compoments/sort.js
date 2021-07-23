@@ -28,41 +28,37 @@ class Sort extends React.Component {
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="dropdownMenu1">
                             <li onClick={()=> this.onClick('name',1)}>
-                                <a 
-                                    role="button"
+                                <button
                                     className={(this.props.sortBy ==='name' && this.props.sortValue===1) ? 'sort_selected':''} 
                                 >
                                     <i className="fas fa-sort-alpha-up-alt"> </i>
                                     Tu a -z
-                                </a>
+                                </button>
                             </li>
                             <li onClick={()=> this.onClick('name',-1)}>
-                                <a 
-                                    role="button" 
+                                <button 
                                     className={(this.props.sortBy ==='name' && this.props.sortValue===-1) ? 'sort_selected':''} 
 
                                 >
                                <i class="fas fa-sort-alpha-down-alt"></i>
                                     Tu z-a
-                                </a>
+                                </button>
                             </li>
                             <li role="separator" className="divider"></li>
                             <li onClick={()=> this.onClick('status',1)}>
-                                <a
-                                     role="button"
+                                <button
                                     className={(this.props.sortBy ==='status' && this.props.sortValue === 1) ? 'sort_selected':''} 
                                 >
                                     Tran Thai kich Hoat
-                                </a>
+                                </button>
                             </li>
                             <li onClick={()=> this.onClick('status',-1)}>
-                                <a 
-                                    role="button"
+                                <button 
                                     className={(this.props.sortBy ==='status' && this.props.sortValue === -1) ? 'sort_selected':''} 
 
                                 >
                                     Tran Thai An
-                                </a>
+                                </button>
 
                             </li>
                         </ul>

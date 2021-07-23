@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+.bat_dong_san{
+  width: 100%;
+}
+.container {
+  width: 100%;
+}
+.nav{
+  width: 100%;
+  background-color: #043250;
+}
+.nav .nav-childen {
+  position: relative;
+  width: 80%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 500;
+}
+
+.nav .nav-childen .nav-mr .nav-flex{
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .nav-childen .nav-mr .nav-flex .nav_left_moblie {
+  display: none;
+}
+.nav .nav-childen .nav-mr .nav-flex .times,
+.nav .nav-childen .nav-mr .nav-flex .bars{
+  display: none;
+}
+.nav .nav-childen .nav-mr .nav-flex .nav_left .logo img{
+  width: 250px;
+  height: 50px;
+
+}
+.nav .nav-childen .nav-mr .nav-flex .nav_center .menu .menu-ul{
+  display: flex;
+  list-style: none;
+}
+
+.nav .nav-childen .nav-mr .nav-flex .nav_center .menu .menu-ul .menu-li{
+  color: white;
+  padding: 0 10px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.nav .nav-childen .nav-mr .nav-flex .nav_center .menu-mobile{
+  display: none;
+  width: 100%;
+}
+
+.nav_right .btn-sdt{
+}
+
+
+.btn-sdt{
+ padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border-color: rgb(244, 221, 156);
+  border-radius:  10px;
+}
+
+/*=========Banner ============*/
+.banner {
+  width: 100%;
+  height: 90vh ;
+}
+.banner-bg {
+
+  height: 90vh ;
+  background: url("./acesst/background.jpg") no-repeat;
+  background-size: cover;
+ 
+}
+
+.banner-bg .banner-contact {
+  
+}
+.banner-bg .banner-contact .child-bg {
+  position: absolute;
+  right: 15%;
+  z-index: 50;
+  width: 450px;
+  background: url("./acesst/gioi-thieu.png") no-repeat;
+  height: 500px;
+  background-size: 450px 500px;
+}
+.banner-bg .banner-contact .child-bg .child-text{
+  margin-top: 20px;
+  width: 340px;
+  padding-left: 50px;
+  
+}
+.banner-bg .banner-contact .child-bg .child-text .text-mr {
+  margin-top:40px ;
+}
+.banner-bg .banner-contact .child-bg .child-text .text-mr>h3{
+  font-size: 1.5em;
+}
+.banner-bg .banner-contact .child-bg .child-text .text-mr .title {
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+.banner-bg .banner-contact .child-bg .child-text .text-mr .bn-gia {
+  margin: 20px;
+  text-align: center;
+  
+}
+.banner-bg .banner-contact .child-bg .child-text .text-mr .bn-gia h3{
+  color: #c2b508;
+  font-size: 2em;
+
+}
+.banner-bg .banner-contact .child-bg .child-text .text-mr ul {
+  margin-left: 30px;
+}
+.banner-bg .banner-contact .child-bg .child-text .text-mr ul li {
+  margin-bottom: 10px;
+  color: white;
+}
+
+/* secction*/
+section {
+  width: 100%;
+}
+section .content{
+  width: 100%;
+  margin-top: 40px;
+
+
+}
+section .content .content-container{
+width: 80%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+section .content .content-container .child h3{
+  margin: 20px 0;
+  text-align: center;
+  font-size: 25px;
+}
+section .content .content-container .child h1 {
+  margin: 20px 0;
+  text-align: center;
+  color: #043250;
+  font-size: 30px;
+}
+section .content .content-container .child p{
+  margin: 10px 0;
+  text-align: center;
+}
+section .content .content-container .child .gach-img {
+  margin: 0 auto;
+  width: 300px;
+  
+  
+}
+section .content .content-container .child .gach-img img{
+  width: 300px;
+  margin: 20px 0;
+}
+/*tong quan*/
+section .content .content-container .tong-quan {
+  display: flex;
+  flex-direction: row;
+}
+section .content .content-container .tong-quan .img-tp {
+  flex: 60%;
+}
+section .content .content-container .tong-quan  .img-tienich{
+  margin-top: 108px;
+  flex: 60%;
+}
+section .content .content-container .tong-quan .img-tp img {
+  width:90%;
+}
+section .content .content-container .tong-quan .img-tienich img {
+  width:90%;
+}
+section .content .content-container .tong-quan .chi-tiet {
+  position: relative;
+  flex: 40%;
+  margin-top: 30px;
+}
+section .content .content-container .tong-quan .chi-tiet .list{
+  list-style: none;
+
+} 
+section .content .content-container .tong-quan .chi-tiet  h3{
+  text-align: center;
+}
+section .content .content-container .tong-quan .chi-tiet  h1{
+  text-align: center;
+}
+section .content .content-container .tong-quan .chi-tiet  p{
+  margin: 10px 0;
+text-align: center;
+}
+section .content .content-container .tong-quan .chi-tiet .list .item{
+  margin: 20px 0;
+}
+
+section .content .content-container .tong-quan .chi-tiet .list .item::before{
+  content: "";
+  background-image: url("./acesst/ngoi-sao.svg");
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 3px;
+  position: absolute;
+  left: -20px;
+}
+
+section .content .content-container .address-img {
+
+}
+section .content .content-container .address-img img{
+  margin: 30px 0;
+  width: 100%;
+  height: auto;
+}
+
+
+section .content .content-container .tong-quan .chi-tiet .list .item-kc{
+  margin: 20px 0;
+}
+
+section .content .content-container .tong-quan .chi-tiet .list .item-kc::before{
+  content: "";
+  background-image: url("./acesst/kim-cuong.svg");
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+   background-size: 100% 100%;
+   margin-top: 3px;
+  position: absolute;
+  left: -20px;
+}
+section .content .content-container>.chi-tiet{
+  text-align: center;
+  margin: 30px 0;
+}
+section .content .content-container .mkt-img::after{
+  background: rgba(4, 50, 80, 1.0);
+
+  background:  linear-gradient(180deg, rgb(20 96 146), rgba(4, 50, 80, 1.0));
+  content: "";
+  width: 42px;
+  height: 108px;
+  /* background: #398266; */
+  position: absolute;
+  /* top: -30px; */
+  left: 66px;
+}
+section .content .content-container .mkt-img .bg{
+  background: url("./acesst/bg.jpg") no-repeat;
+  height: 500px;
+  width: 100%;
+  background-size: 100% 500px;
+  position: relative;
+}
+section .content .content-container .mkt-img .bg .text{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  width: 40%;
+  color: white;
+  background: rgba(4, 50, 80, 1.0);
+  padding: 10px;
+}
+/*form*/
+
+
+ .form-contact{
+   margin: 40px 0;
+  width: 100%;
+  height: auto;
+  background: radial-gradient(circle, rgba(255, 223, 109, 1.0), rgba(239, 142, 50, 1.0));
+}
+.form-contact .row {
+  width: 80%;
+  margin: 0 auto;
+}
+.form-contact .row .col {
+  padding: 35px 0;
+  width: 100%;
+}
+.form-contact .row .col .pd .title h1{
+  margin: 20px 0;
+  text-align: center;
+}
+.form-contact .row .col .pd  form .child-form{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.form-contact .row .col .pd  form .child-form .input{
+  width: 70%;
+  display: flex;
+}
+
+.form-contact .row .col .pd  form .child-form .input input{
+  width: 100%;
+  margin: 0 10px;
+  padding: 10px;
+}
+.form-contact .row .col .pd  form .child-form .btn {
+  width: 25%;
+}
+.form-contact .row .col .pd  form .child-form .btn button {
+  width: 100%;
+  padding: 10px;
+  font-weight: 700;
+  font-style: 30px;
+  color: rgba(239, 142, 50, 1.0);
+  background: #043250;
+}
